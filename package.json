@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bioregistry",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bioregistry MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-4ab399520c30e9e14dcf944b8458204acb86508eef466d26e6182f86b06db587",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-eeb24609b140a30505dbc60d79db4d328da43369fbfa2014423e914791ecdd96",
+    "sourceCommit": "babdd280d475dceddecc9ebf8f2a661712781a81"
   }
 }
