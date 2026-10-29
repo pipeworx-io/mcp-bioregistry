@@ -1,0 +1,67 @@
+[
+  {
+    "name": "prefix",
+    "description": "Fetch full Bioregistry metadata for a biological database prefix (e.g. \"chebi\", \"hpo\", \"uniprot\"), including canonical URI pattern, synonyms, homepage, and cross-registry mappings.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "prefix": {
+          "type": "string",
+          "description": "e.g. \"chebi\", \"hpo\""
+        }
+      },
+      "required": [
+        "prefix"
+      ]
+    }
+  },
+  {
+    "name": "search",
+    "description": "Search Bioregistry for biological database prefixes by substring match against prefix name, title, or description (e.g. \"gene ontology\"). Returns up to `limit` matching prefix records.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "resolve",
+    "description": "Resolve a CURIE (prefix:id) to a provider URL.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "curie": {
+          "type": "string",
+          "description": "e.g. \"chebi:24867\""
+        }
+      },
+      "required": [
+        "curie"
+      ]
+    }
+  },
+  {
+    "name": "prefixes",
+    "description": "Paginate over all registered Bioregistry prefixes (2,000+); returns full prefix records for each entry. Use limit/offset to page through the complete registry.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number"
+        },
+        "offset": {
+          "type": "number"
+        }
+      }
+    }
+  }
+]
