@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bioregistry",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Bioregistry MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "bioregistry",
     "gatewaySlug": "bioregistry",
-    "sourceHash": "v1-82614754b25b1f28628172ce7ae56c9ae0ca97c1b864eb2b70ed950144dea33b",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-8b298f6d72de61256a725838f9da00e05d5194a9453112f79c32c2711c38d5ef",
+    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
   }
 }
